@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pricing Table</title>
+  </head>
+  <body>
+    <div class="top-banner">
+      <p class="current-plan">Your current Plan</p>
+      <p class="plan-type">Free Plan</p>
+    </div>
+
+    <div class="container">
+      <h1 class="title">Choose a plan</h1>
+      <div class="toggle-switch">
+        <span>Billed anually </span>
+        <input type="checkbox" class="toggler" />
+        <span> Billed monthly</span>
+      </div>
+
+      <div class="cards">
+        <!-- Starter Plan -->
+        <div class="card" id="card-1">
+          <h1 class="card-title">Free</h1>
+          <h2 class="card-price" id="starter-price">
+            $0 <span> / month</span>
+          </h2>
+          <ul class="card-plan">
+            <li>Unlimited passwords</li>
+            <li>Access on one device type</li>
+            <li>Passwordless login</li>
+            <li>Password generator</li>
+            <li>Unlimted branded thems</li>
+            <li>Email Support</li>
+          </ul>
+          <button type="button" class="card-btn">Choose Plan</button>
+        </div>
+
+        <!-- Pro Plan -->
+        <div class="card active" id="card-2">
+          <h1 class="card-title">Pro</h1>
+          <h2 class="card-price" id="pro-price">$1.99 <span> / month</span></h2>
+
+          <ul class="card-plan">
+            <li>Acess on all devices</li>
+            <li>One-to-many sharing</li>
+            <li>Priority tech support</li>
+          </ul>
+          <button type="button" class="card-btn">Choose Plan</button>
+        </div>
+
+        <!-- Enterpise Card -->
+        <div class="card" id="card-3">
+          <h1 class="card-title">Contact</h1>
+          <h2 class="card-price">Let's Talk!</h2>
+          <a href="mailto: passwordgeneratoradmin1@gmail.com">
+            <button type="button" class="card-btn">Contact Us</button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
