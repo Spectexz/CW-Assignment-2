@@ -1,11 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Work+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:wght@500&family=Work+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Fira+Sans:wght@500&family=Work+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Fira+Sans:wght@500&family=Work+Sans&family=Yeseva+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: #355764;
+  background-color: #ced5d5;
   color: white;
   display: flex;
   align-items: center;
@@ -15,8 +19,22 @@ body {
   min-height: 100vh;
 }
 
+.top-banner {
+  background-color: #4a6367;
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 1.5rem 4rem;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  border-radius: 0 0 10px 10px;
+}
+
 .pw-container {
-  background-color: #5a8f7b;
+  background-color: #768a86;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
   min-width: 400px;
 }
@@ -26,9 +44,10 @@ body {
 }
 
 .pw {
-  background-color: #81cacf;
+  background-color: #ced5d5;
   display: flex;
   font-size: 1.5rem;
+  color: black;
   align-items: center;
   height: 70px;
   width: 100%;
@@ -63,14 +82,14 @@ body {
 }
 
 .form-control {
-  color: #eee;
+  color: black;
   display: flex;
   justify-content: space-between;
   margin: 0.75rem 0;
 }
 
 .generate {
-  background-color: #ffea11;
+  background-color: #e0b965;
   border: none;
   color: #000000;
   cursor: pointer;
