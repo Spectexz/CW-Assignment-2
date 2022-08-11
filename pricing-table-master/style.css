@@ -14,7 +14,7 @@ ul {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #191b1d;
+  background-color: #ced5d5;
   color: white;
   height: 100vh;
   width: 100%;
@@ -24,7 +24,7 @@ body {
 }
 
 .top-banner {
-  background-color: #bc1e4a;
+  background-color: #4a6367;
   position: absolute;
   padding: 1.5rem 4rem;
   top: 0;
@@ -53,6 +53,7 @@ p.plan-type {
 h1.title {
   letter-spacing: 2px;
   margin-bottom: 1.5rem;
+  color: black;
 }
 
 .toggle-switch {
@@ -62,6 +63,7 @@ h1.title {
   justify-content: center;
   align-items: center;
   margin-bottom: 1.5rem;
+  color: black;
 }
 
 .toggler {
@@ -70,7 +72,7 @@ h1.title {
   -moz-appearance: none;
   width: 50px;
   height: 25px;
-  background-color: #bc1e4a;
+  background-color: #768a86;
   border-radius: 25px;
   margin: 0 1rem;
   position: relative;
@@ -104,7 +106,7 @@ h1.title {
 .card {
   height: 500px;
   width: 32%;
-  background-color: #22262c;
+  background-color: #4a6367;
   border-radius: 15px;
   padding: 2rem;
   text-align: center;
@@ -141,7 +143,7 @@ h2 > span {
 .card ul li:before {
   content: "•";
   margin-right: 0.5rem;
-  color: #bc1e4a;
+  color: #e0b965;
   font-size: 1.5rem;
 }
 
@@ -153,17 +155,19 @@ h2 > span {
   margin-top: 1rem;
   width: 100%;
   background-color: transparent;
-  border: 1px solid #bc1e4a;
+  border: 1px solid #e0b965;
   color: white;
   font-size: 1rem;
+  font-weight: 900;
   padding: 1rem;
   border-radius: 5px;
 }
 
 #card-1 .card-btn:hover,
 #card-3 .card-btn:hover,
+#card-2 .card-btn:hover,
 .active .card-btn {
-  background-color: #bc1e4a;
+  background-color: #e0b965;
 }
 
 option {
@@ -172,7 +176,7 @@ option {
 }
 
 .note {
-  color: #bc1e4a;
+  color: #e0b965;
   font-size: 0.75rem;
   text-align: left;
   display: block;
